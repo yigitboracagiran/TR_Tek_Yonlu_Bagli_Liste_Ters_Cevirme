@@ -1,0 +1,1 @@
+# TR_Tek_Yonlu_Bagli_Liste_Ters_Cevirme
