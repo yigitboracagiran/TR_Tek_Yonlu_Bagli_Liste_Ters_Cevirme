@@ -11,7 +11,7 @@ struct ListNode {
 class Solution {
 public:
  
-    ListNode* reverse(ListNode* head) {
+    ListNode *reverse(ListNode *head) {
         ListNode *temp1 = head;
         for ( int i = 0 ; temp1 -> next != nullptr ; i++ ) {
             ListNode *temp2 = temp1 -> next -> next;
