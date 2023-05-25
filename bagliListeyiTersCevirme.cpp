@@ -26,13 +26,13 @@ public:
 int main() {
     Solution solution;
 
-    ListNode* node1 = new ListNode(1);
-    ListNode* node2 = new ListNode(2);
-    ListNode* node3 = new ListNode(3);
-    ListNode* node4 = new ListNode(4);
-    ListNode* node5 = new ListNode(5);
-    ListNode* node6 = new ListNode(6);
-    ListNode* node7 = new ListNode(7);
+    ListNode *node1 = new ListNode(1);
+    ListNode *node2 = new ListNode(2);
+    ListNode *node3 = new ListNode(3);
+    ListNode *node4 = new ListNode(4);
+    ListNode *node5 = new ListNode(5);
+    ListNode *node6 = new ListNode(6);
+    ListNode *node7 = new ListNode(7);
 
     node1->next = node2;
     node2->next = node3;
@@ -42,10 +42,10 @@ int main() {
     node6->next = node7;
     node7->next = nullptr;
 
-    ListNode* head = node1;
+    ListNode *head = node1;
     head = solution.reverse(head); 
 
-    ListNode* current = head;
+    ListNode *current = head;
     while ( current != nullptr ) {
         std::cout << current -> val << " ";
         current = current -> next;
